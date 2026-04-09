@@ -47,3 +47,41 @@ font-size: 80px;
 text-align: left;
  }
 }
+/* About the Game */
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.about-wrapper{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+}
+.about-text{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+        width: 323px;
+}
+@media only screen and (min-width: 1440px) {
+ .about-container{
+    flex-direction: row;
+    justify-content: center;
+    gap: 64px;
+ }
+ .about-wrapper{
+    width: 423px;
+    align-items: start;
+   text-align: left;
+   gap: 32px;
+ }
+ .about-text{
+    text-align: left;
+    width: 410px;
+ }
+}
