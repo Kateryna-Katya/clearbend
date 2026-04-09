@@ -184,3 +184,73 @@ height: 1031px;
         justify-content: center;
     }
 }
+/* How to Play */
+.how-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 48px;
+}
+.how-text{
+    font-style: italic;
+    text-align: center;
+}
+.how-list{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+}
+.how-item{
+    padding: 8px 0px;
+        width: 343px;
+        height: 60px;
+background: linear-gradient(180deg, #1f232b 0%, #171a21 100%);
+display: flex;
+align-items: center;
+gap: 4px;
+letter-spacing: -0.02em;
+    color: #dee2ee;
+}
+.number{
+    padding: 10px;
+        width: 44px;
+        height: 44px;
+font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    color: #b19148;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+  .how-wrapper{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 58px;
+  }
+  .how-list{
+    flex-direction: row;
+    gap: 32px;
+  }
+  .how-item{
+    flex-direction: column;
+    padding: 16px 24px;
+        width: 212px;
+        height: 156px;
+        text-align: center;
+        gap: 16px;
+  }
+  .number{
+    width: 60px;
+        height: 60px;
+        font-size: 40px;
+  }
+  .desk{
+    display: block;
+  }
+}
