@@ -1,0 +1,49 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom 64px center;
+    background-size: 100% 311px;
+    height: 813px;
+}
+.home-text{
+    font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.5;
+        letter-spacing: 0.08em;
+        text-align: center;
+        color: #8993ab;
+        margin-top: 44px;
+}
+.home-title{
+    margin-top: 32px;
+    font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 1;
+        letter-spacing: 0.08em;
+        text-align: center;
+        color: #dee2ee;
+text-shadow: inset 0 3px 4px 0 rgba(42, 47, 58, 0.7);
+}
+@media only screen and (min-width: 1440px) {
+ .home-section{
+    background-image: url("/img/home/desk.png");
+        background-position: bottom 80px center;
+        background-size: 1200px 544px;
+        height: 914px;
+ }
+ .mob{
+    display: none;
+ }
+ .home-text{
+    text-align: left;
+letter-spacing: 0.16em;
+margin-top: 64px;
+ }
+ .home-title{
+margin-top: 16px;
+font-size: 80px;
+text-align: left;
+ }
+}
